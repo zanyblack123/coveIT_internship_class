@@ -1,0 +1,25 @@
+.full {
+  background-color: aqua;
+}
+
+.flex-container {
+  width: 30%;
+  min-width: 300px;
+  height: 40vh;
+  background-color: rebeccapurple;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.flex-container:hover {
+  color: slategray;
+}
+
+.change-color {
+  color: brown;
+  transition: all 0.5s linear;
+}
+
+.change-color:hover {
+  color: gold;
+}

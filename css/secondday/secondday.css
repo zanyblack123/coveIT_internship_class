@@ -1,0 +1,39 @@
+.container p::first-letter {
+  font-size: 2rem;
+}
+
+.container p::first-line {
+  color: greenyellow;
+}
+
+.container form input::placeholder {
+  color: aquamarine;
+}
+
+::placeholder {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.container ::before {
+  content: "HELLO WORLD";
+  background-color: aqua;
+}
+
+.container::before {
+  content: url(" ");
+  border: 2px solid green;
+  width: 30vw;
+  background-color: orange;
+}
+
+.bg-container {
+  margin-top: 3rem;
+  background-color: orange;
+  background-image: url("../second day/ball ima.jpg");
+  height: 20em;
+  background-size: contain;
+  background-position: center 100;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,43 @@
+/* div {
+ background-color: #d2d269;
+}*/
+
+.container h2,
+.sec-div h1 {
+  background-color: var("--primary-color--: aquamarine");
+  font-size: 4rem;
+}
+
+/* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-size: x-large;
+}*/
+
+:root {
+  --primary-color--: red;
+}
+
+.container {
+  background-color: orange;
+}
+
+#id-elem {
+  background-color: antiquewhite;
+}
+
+#id-elem[tomiwa="my name"] {
+  background-color: brown;
+}
+
+.container {
+  color: green;
+}
+
+.container:nth-child(2) {
+  font-size: xx-large;
+  /* background-color: darkcyan;*/
+  color: violet;
+}

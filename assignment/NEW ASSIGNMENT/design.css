@@ -1,0 +1,42 @@
+#gradient1 {
+    height: 700px;
+    background-color: #ecc19c;
+    background-image: linear-gradient(#ecc19c, #000000);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.form {
+  width: 280px;
+  display: inline-block;
+}
+
+#flex-container {
+  width: 30%;
+  min-width: 300px;
+  height: 30vh;
+  background-color: #1e847f;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+input[type="text"],input[type="password"]{
+ width: 220px;
+ height: 30px;
+ margin-bottom: 10px;
+ box-sizing: border-box;
+}
+
+

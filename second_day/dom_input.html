@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom input manipulation</title>
+  </head>
+  <body>
+    <form action="javascript:;">
+      <input type="text" inputmode="text" id="name" />
+      <input type="text" id="age" inputmode="email" />
+      <input type="text" inputmode="text" id="color" />
+      <button>submit</button>
+    </form>
+
+    <script>
+      let name = document.getElementById("name").value;
+      let email = document.getElementById("email").value;
+      let color = document.getElementById("color").value;
+      name.setAttribute("placeholder", "add your name");
+      console.log("inputvalue", { name, email, color });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/*.position-me {
+    width: 50%;
+    height: 100px;
+    background-color: beige;
+    position: static;
+    top: 40%;
+    left: 30%;
+}*/
+
+/*.position-me {
+    width: 50%;
+    height: 100px;
+    background-color: beige;
+    position: relative;
+    top: -90vh;
+    left: -10vw;
+}*/
+
+.position-me {
+  width: 50%;
+  height: 100px;
+  background-color: beige;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
